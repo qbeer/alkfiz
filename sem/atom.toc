@@ -1,0 +1,6 @@
+\select@language {hungarian} \contentsline {section}{\numberline {I}Elm\IeC {\'e}leti \IeC {\"o}sszefoglal\IeC {\'o}}{2}
+\select@language {hungarian} \contentsline {section}{\numberline {II}A m\IeC {\'e}r\IeC {\'e}s l\IeC {\'e}p\IeC {\'e}sei}{2}
+\select@language {hungarian} \contentsline {section}{\numberline {III}M\IeC {\'e}r\IeC {\'e}si eredm\IeC {\'e}nyek}{3}
+\select@language {hungarian} \contentsline {subsection}{\numberline {III.1}Els\IeC {\H o} minta}{3}
+\select@language {hungarian} \contentsline {subsubsection}{\numberline {III.1.1}\IeC {\"O}sszet\IeC {\'e}tel meghat\IeC {\'a}roz\IeC {\'a}sa}{4}
+\select@language {hungarian} \contentsline {section}{\numberline {IV}\IeC {\"O}sszefoglal\IeC {\'a}s}{5}
