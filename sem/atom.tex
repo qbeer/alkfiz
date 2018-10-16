@@ -127,10 +127,132 @@ kapott kép nem tartalmazott ennél nagyobb értékeket adott pixelben.
 pontoknak. Nem jól elkülöníthatő a szemmel jól látható nikkel réteg a kép
 közepe táján, ezt a kisebb csúcs előtti résznek veszem. Az eredmények a következők:
 
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|}  \hline
+		-      & Measured & err    & Integrated & err    \\ \hline
+		dark   & 165      & 24.75  & 16697      & 1669.7 \\ \hline
+		mid    & 44       & 6.6    & 5756       & 575.6  \\ \hline
+		bright & 126.5    & 18.975 & 12467      & 1246.7 \\ \hline
+	\end{tabular}
+	\caption{A felszíni anyagösszetétel eloszlása}
+	\label{my-label}
+\end{table}
 
+\par Kézzel mért esetben a becsült hiba 15\%-os mivel képtelenség volt
+pontosan meghatározni a színátmenetek határát. Ugyan ez a hiba 10\%-ra becsült
+az integrált esetben, hiszen a 20 bin-es felosztás lehetővé teszi jól definiált határok
+felállítását.
+
+\par A sorok a legsötétebbtől a legvilágosabb kékig mennek. A legsötétebbhez
+viszonyítva (*/dark - mért vagy integrált ):
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|}  \hline
+		- & dark/dark & mid/dark & bright/dark \\ \hline
+		Integrated  & - & 0.34472 $\pm$ 0.0345 & 0.74667 $\pm$ 0.0747 \\ \hline
+		Measured & - & 0.2667 $\pm$ 0.04 & 0.7667 $\pm$ 0.1150 \\ \hline
+	\end{tabular}
+	\caption{A felszíni anyagösszetétel eloszlása}
+	\label{my-label}
+\end{table}
+
+\par Jól látható, hogy a legvilágosabb rész jól elkülönítható, míg a 
+közepesen világos rész hibahatáron nem egyezik meg. Ez nem meglepő, hiszen
+alig alig elkülöníthatő a széle a sötét és a világos rész közötti közepes
+átmenethez.
+
+\subsection{Ezüst lánc}
+
+\par Közlöm a készített képeket:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.62\textwidth]{./Jcsop/lanc.png}
+	\caption{SEM kép, a később röntgennel vizsgált terület jelölve.}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.62\textwidth]{./Jcsop/lancrtg.png}
+	\caption{SEM kép, röntgen összetétel analízis.}
+\end{figure}
+
+\par Az anyagösszetételt százalékosan, relatív hibákkal közlöm:
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|}  \hline
+		Element & Weight [\%] & $\sigma$ \\ \hline
+		Ag      & 81.6        & 0.3      \\ \hline
+		O       & 5.5         & 0.1      \\ \hline
+		C       & 4.9         & 0.2      \\ \hline
+		Cu      & 4.1         & 0.1      \\ \hline
+		Cd      & 2.1         & 0.2      \\ \hline
+		Na      & 0.7         & 0.1      \\ \hline
+		Zn      & 0.7         & 0.1      \\ \hline
+		Cl      & 0.3         & 0.0      \\ \hline
+		Al      & 0.2         & 0.0      \\ \hline
+		Si      & 0.1         & 0.0      \\ \hline
+	\end{tabular}
+	\caption{A felszíni anyagösszetétel eloszlása}
+	\label{my-label}
+\end{table}
+
+\subsection{Micro chip}
+
+\subsubsection{Demonstrációs chip 1.}
+
+\par Az alábbi esetben nem volt külön feladat, csak a képeket közlöm.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{./Jcsop/chip1.png}
+	\caption{SEM kép, röntgen analízis után szintetikusan színezve}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{./Jcsop/chip1rtg.png}
+	\caption{SEM kép, röntgen összetétel analízis.}
+\end{figure}
+
+\par Az anyagösszetételt százalékosan, relatív hibákkal közlöm:
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|} \hline
+		Element & Weight \% & $\sigma$ \\  \hline
+		Si      & 49.1      & 0.2      \\ \hline
+		O       & 24.7      & 0.2      \\ \hline
+		Au      & 13.7      & 0.2      \\ \hline
+		C       & 8.2       & 0.3      \\ \hline
+		Ni      & 3.5       & 0.1      \\ \hline
+		Fe      & 0.9       & 0.1      \\ \hline
+	\end{tabular}
+	\caption{A felszíni anyagösszetétel eloszlása}
+\end{table}
+
+\subsubsection{Demonstrációs chip 2.}
+
+\par Az utolsó chipnél, le kellett mérni a beosztások méretét és
+megkeresni az összefüggést a jelzett számokkal.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Jcsop/chip2.png}
+	\caption{SEM kép}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.66\textwidth]{./Jcsop/chip2rtg.png}
+	\caption{SEM kép, röntgen összetétel analízis.}
+\end{figure}
 
 \section{Összefoglalás}
 
-\par 
+
 
 \end{document}
