@@ -16,7 +16,6 @@
 \usepackage{amsmath,amssymb}
 \usepackage{float}
 
-
 \usepackage{indentfirst}
 \usepackage{subfig}
 
@@ -68,10 +67,6 @@ megfelelő táblázatokkal.
 
 \par Előszöris persze egy három anyagból álló (szilícium-titán-réz/nikkel ötvözet) mintát vizsgáltunk a fentebbi
 módszerekkel, hogy megismerjük a műszert és annak használatát.
-
-\vfill
-
-\newpage
 
 \section{ Mérési eredmények}
 
@@ -251,8 +246,58 @@ megkeresni az összefüggést a jelzett számokkal.
 	\caption{SEM kép, röntgen összetétel analízis.}
 \end{figure}
 
+\par Mért adatok, a mérés hibája $\pm$ 1 pixel, 
+ezért nem írtam ki mindenhol, de ezzel számoltam a terület hibáját is.
+A mérés során a számok melletti kis téglalpok magasságát és szélességét mértem meg, az adatok a következők:
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|} \hline
+		Number & Height [px] & Width [px] \\ \hline
+		1.00 & 158.0 &  31.0 \\ \hline
+		1.12 & 139.0 & 29.0 \\ \hline
+		1.26 & 121.0 & 24.0 \\ \hline
+		1.41 & 110.0 & 22.0 \\ \hline
+		1.59 & 95.0 & 20.0 \\ \hline
+		1.78 & 86.0 & 16.0 \\ \hline
+		2.00 & 73.0 & 15.0 \\ \hline
+	\end{tabular}
+	\caption{A felszíni anyagösszetétel eloszlása}
+\end{table}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.76\textwidth]{./Jcsop/chip2bigMeasured.png}
+	\caption{Mért kép}
+\end{figure}
+
+\par A nem mért adatok, már túl kicsik voltak a nagyítás során. Ezért az [1.00, 2.00] 
+tartományban mértem le a csíkszélességeket.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.86\textwidth]{./egyperxfuggvenyhiba.png}
+	\caption{a/(x+b) függvény, adatok hibával}
+\end{figure}
+
+\par Ahol az illesztett függvény egy $f(x) = \frac{a}{x + b}$ és az illesztett értékek 
+a következők:
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|} \hline
+		a & err & b &  err\\ \hline
+		1769.65 & 140.58 & -0.649  & 0.035 \\ \hline
+	\end{tabular}
+	\caption{Illesztési paraméterek.}
+\end{table}
+
+\par Jól látható, hogy a hibákkal együtt feltüntetve ez egy, az adatokra
+jól illeszkedő függvény. A $b$ paraméter szinte elhanyagolható. A kékkel jelzett 
+vonal a mért értékek, hibával.
+
 \section{ Összefoglalás}
 
-
+\par A labor során megismertük a SEM műszert.
 
 \end{document}
