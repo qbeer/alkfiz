@@ -1,0 +1,6 @@
+\select@language {hungarian} \contentsline {section}{\numberline {I.}A m\IeC {\'e}r\IeC {\'e}s menete}{2}
+\select@language {hungarian} \contentsline {section}{\numberline {II.} Ki\IeC {\'e}rt\IeC {\'e}kel\IeC {\'e}s}{2}
+\select@language {hungarian} \contentsline {subsection}{\numberline {II.1} NaCl egykrist\IeC {\'a}ly}{2}
+\select@language {hungarian} \contentsline {subsection}{\numberline {II.2} Si egykrist\IeC {\'a}ly}{3}
+\select@language {hungarian} \contentsline {subsection}{\numberline {II.3} Zaf\IeC {\'\i }r egykrist\IeC {\'a}ly}{5}
+\select@language {hungarian} \contentsline {section}{\numberline {III.} \IeC {\"O}sszegz\IeC {\'e}s}{7}
