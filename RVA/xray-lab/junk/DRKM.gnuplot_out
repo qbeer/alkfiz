@@ -1,0 +1,545 @@
+(C)MWP mode is switched ON (version 180502).
+Computing the Fourier transform of the instrumental profiles... 
+no instrumental profiles, done.
+Max. number of data points scaled up to: 3072
+Max. number of data points scaled up to: 4608
+Max. number of data points scaled up to: 6912
+Max. number of data points scaled up to: 10368
+Max. number of data points scaled up to: 15552
+Max. number of data points scaled up to: 23328
+
+
+ Iteration 0
+ WSSR        : 129449            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-09
+ lambda	  : 3.48494
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+c               = 1
+d               = 1
+e               = 1
+i_s0_0          = 43.5275
+i_s0_1          = 50.3048
+i_s0_2          = 74.1753
+i_s0_3          = 89.853
+i_s0_4          = 95.2422
+i_s0_5          = 116.854
+i_max_0         = 41.9358
+i_max_1         = 31.3122
+i_max_2         = 24.5648
+i_max_3         = 15.9306
+i_max_4         = 6.32459
+i_max_5         = 0.927272
+**/
+
+ Iteration 1
+ WSSR        : 86165.9           delta(WSSR)/WSSR   : -0.502328
+ delta(WSSR) : -43283.5          limit for stopping : 1e-09
+ lambda	  : 34.8494
+
+resultant parameter values
+
+a               = 1.01808
+b               = 1.00994
+c               = 1.0013
+d               = 1.20838
+e               = 1.05047
+i_s0_0          = 43.4911
+i_s0_1          = 50.3758
+i_s0_2          = 74.1466
+i_s0_3          = 89.8679
+i_s0_4          = 95.2283
+i_s0_5          = 116.854
+i_max_0         = 41.9261
+i_max_1         = 31.309
+i_max_2         = 24.558
+i_max_3         = 15.9269
+i_max_4         = 6.32138
+i_max_5         = 0.927265
+*/
+
+ Iteration 2
+ WSSR        : 67185.7           delta(WSSR)/WSSR   : -0.282504
+ delta(WSSR) : -18980.2          limit for stopping : 1e-09
+ lambda	  : 34.8494
+
+resultant parameter values
+
+a               = 1.03491
+b               = 1.02429
+c               = 1.00322
+d               = 1.35328
+e               = 1.09668
+i_s0_0          = 43.4649
+i_s0_1          = 50.3812
+i_s0_2          = 74.1312
+i_s0_3          = 89.875
+i_s0_4          = 95.2108
+i_s0_5          = 116.854
+i_max_0         = 41.9186
+i_max_1         = 31.3078
+i_max_2         = 24.5537
+i_max_3         = 15.9253
+i_max_4         = 6.31909
+i_max_5         = 0.927042
+/
+
+ Iteration 3
+ WSSR        : 50081.7           delta(WSSR)/WSSR   : -0.341522
+ delta(WSSR) : -17104            limit for stopping : 1e-09
+ lambda	  : 3.48494
+
+resultant parameter values
+
+a               = 1.35942
+b               = 1.35635
+c               = 0.89269
+d               = 1.38979
+e               = 1.6645
+i_s0_0          = 43.4399
+i_s0_1          = 50.3838
+i_s0_2          = 74.1279
+i_s0_3          = 89.8831
+i_s0_4          = 95.1003
+i_s0_5          = 116.867
+i_max_0         = 41.2917
+i_max_1         = 31.3935
+i_max_2         = 24.4324
+i_max_3         = 15.9661
+i_max_4         = 6.19863
+i_max_5         = 0.92258
+*/
+
+ Iteration 4
+ WSSR        : 48092.6           delta(WSSR)/WSSR   : -0.0413594
+ delta(WSSR) : -1989.08          limit for stopping : 1e-09
+ lambda	  : 3.48494
+
+resultant parameter values
+
+a               = 1.51398
+b               = 1.10118
+c               = 0.864382
+d               = 1.40048
+e               = 1.63886
+i_s0_0          = 43.4352
+i_s0_1          = 50.3831
+i_s0_2          = 74.1235
+i_s0_3          = 89.8787
+i_s0_4          = 95.0588
+i_s0_5          = 116.877
+i_max_0         = 40.9655
+i_max_1         = 31.4366
+i_max_2         = 24.3529
+i_max_3         = 16.0205
+i_max_4         = 6.14886
+i_max_5         = 0.918803
+*/
+
+ Iteration 5
+ WSSR        : 45128.1           delta(WSSR)/WSSR   : -0.0656904
+ delta(WSSR) : -2964.49          limit for stopping : 1e-09
+ lambda	  : 3.48494
+
+resultant parameter values
+
+a               = 1.60882
+b               = 0.799153
+c               = 0.852449
+d               = 1.4234
+e               = 1.96974
+i_s0_0          = 43.4276
+i_s0_1          = 50.383
+i_s0_2          = 74.124
+i_s0_3          = 89.88
+i_s0_4          = 95.0598
+i_s0_5          = 116.886
+i_max_0         = 40.6227
+i_max_1         = 31.4881
+i_max_2         = 24.3093
+i_max_3         = 16.0914
+i_max_4         = 6.127
+i_max_5         = 0.9184
+*/
+
+ Iteration 6
+ WSSR        : 26451.2           delta(WSSR)/WSSR   : -0.706087
+ delta(WSSR) : -18676.9          limit for stopping : 1e-09
+ lambda	  : 3.48494
+
+resultant parameter values
+
+a               = 1.53991
+b               = 0.645315
+c               = 1.54541
+d               = 1.71347
+e               = 2.1086
+i_s0_0          = 43.3894
+i_s0_1          = 50.3821
+i_s0_2          = 74.124
+i_s0_3          = 89.8818
+i_s0_4          = 95.0598
+i_s0_5          = 116.893
+i_max_0         = 40.1119
+i_max_1         = 31.4998
+i_max_2         = 24.2427
+i_max_3         = 16.2042
+i_max_4         = 6.10285
+i_max_5         = 0.927937
+*/
+
+ Iteration 7
+ WSSR        : 9407.69           delta(WSSR)/WSSR   : -1.81166
+ delta(WSSR) : -17043.5          limit for stopping : 1e-09
+ lambda	  : 3.48494
+
+resultant parameter values
+
+a               = 1.63792
+b               = 0.517809
+c               = 1.77564
+d               = 1.96938
+e               = 2.18846
+i_s0_0          = 43.3415
+i_s0_1          = 50.3819
+i_s0_2          = 74.1227
+i_s0_3          = 89.882
+i_s0_4          = 95.0585
+i_s0_5          = 116.9
+i_max_0         = 39.7779
+i_max_1         = 31.5205
+i_max_2         = 24.2094
+i_max_3         = 16.3359
+i_max_4         = 6.09458
+i_max_5         = 0.940435
+/
+
+ Iteration 8
+ WSSR        : 3516.62           delta(WSSR)/WSSR   : -1.67521
+ delta(WSSR) : -5891.07          limit for stopping : 1e-09
+ lambda	  : 0.348494
+
+resultant parameter values
+
+a               = 1.85994
+b               = 0.767579
+c               = 0.95337
+d               = 1.82198
+e               = 3.12321
+i_s0_0          = 43.2914
+i_s0_1          = 50.3832
+i_s0_2          = 74.1242
+i_s0_3          = 89.8909
+i_s0_4          = 95.0619
+i_s0_5          = 116.924
+i_max_0         = 34.7756
+i_max_1         = 32.2285
+i_max_2         = 24.087
+i_max_3         = 18.8925
+i_max_4         = 6.20044
+i_max_5         = 1.00106
+**/
+
+ Iteration 9
+ WSSR        : 2140.14           delta(WSSR)/WSSR   : -0.643174
+ delta(WSSR) : -1376.48          limit for stopping : 1e-09
+ lambda	  : 3.48494
+
+resultant parameter values
+
+a               = 1.87129
+b               = 0.718727
+c               = 1.06144
+d               = 1.70259
+e               = 3.16291
+i_s0_0          = 43.2934
+i_s0_1          = 50.3843
+i_s0_2          = 74.1245
+i_s0_3          = 89.8913
+i_s0_4          = 95.0617
+i_s0_5          = 116.925
+i_max_0         = 34.8898
+i_max_1         = 32.2493
+i_max_2         = 24.0964
+i_max_3         = 18.9086
+i_max_4         = 6.20568
+i_max_5         = 1.00631
+/
+
+ Iteration 10
+ WSSR        : 939.648           delta(WSSR)/WSSR   : -1.2776
+ delta(WSSR) : -1200.49          limit for stopping : 1e-09
+ lambda	  : 0.348494
+
+resultant parameter values
+
+a               = 2.24029
+b               = 0.787342
+c               = 0.949067
+d               = 1.28294
+e               = 3.19933
+i_s0_0          = 43.2986
+i_s0_1          = 50.3841
+i_s0_2          = 74.1263
+i_s0_3          = 89.8882
+i_s0_4          = 95.0645
+i_s0_5          = 116.919
+i_max_0         = 40.6832
+i_max_1         = 32.7851
+i_max_2         = 24.7846
+i_max_3         = 18.6295
+i_max_4         = 6.44192
+i_max_5         = 0.964388
+/
+
+ Iteration 11
+ WSSR        : 256.11            delta(WSSR)/WSSR   : -2.66892
+ delta(WSSR) : -683.538          limit for stopping : 1e-09
+ lambda	  : 0.0348494
+
+resultant parameter values
+
+a               = 2.10853
+b               = 0.752659
+c               = 1.33245
+d               = 1.2967
+e               = 3.7327
+i_s0_0          = 43.3005
+i_s0_1          = 50.3842
+i_s0_2          = 74.1269
+i_s0_3          = 89.8872
+i_s0_4          = 95.0671
+i_s0_5          = 116.918
+i_max_0         = 46.8671
+i_max_1         = 33.3388
+i_max_2         = 25.2653
+i_max_3         = 18.6008
+i_max_4         = 6.73697
+i_max_5         = 0.957443
+/
+
+ Iteration 12
+ WSSR        : 170.103           delta(WSSR)/WSSR   : -0.505621
+ delta(WSSR) : -86.0075          limit for stopping : 1e-09
+ lambda	  : 0.00348494
+
+resultant parameter values
+
+a               = 2.07576
+b               = 0.749964
+c               = 1.279
+d               = 1.32686
+e               = 3.64007
+i_s0_0          = 43.3003
+i_s0_1          = 50.3849
+i_s0_2          = 74.127
+i_s0_3          = 89.8878
+i_s0_4          = 95.0667
+i_s0_5          = 116.919
+i_max_0         = 46.6762
+i_max_1         = 33.5297
+i_max_2         = 25.2684
+i_max_3         = 18.6983
+i_max_4         = 6.68655
+i_max_5         = 0.967527
+/
+
+ Iteration 13
+ WSSR        : 170.075           delta(WSSR)/WSSR   : -0.000162966
+ delta(WSSR) : -0.0277165        limit for stopping : 1e-09
+ lambda	  : 0.000348494
+
+resultant parameter values
+
+a               = 2.08642
+b               = 0.752375
+c               = 1.26732
+d               = 1.32254
+e               = 3.64928
+i_s0_0          = 43.3002
+i_s0_1          = 50.3848
+i_s0_2          = 74.1269
+i_s0_3          = 89.8877
+i_s0_4          = 95.0668
+i_s0_5          = 116.919
+i_max_0         = 46.7521
+i_max_1         = 33.4706
+i_max_2         = 25.2682
+i_max_3         = 18.6688
+i_max_4         = 6.69733
+i_max_5         = 0.966038
+****/
+
+ Iteration 14
+ WSSR        : 170.053           delta(WSSR)/WSSR   : -0.000129788
+ delta(WSSR) : -0.0220708        limit for stopping : 1e-09
+ lambda	  : 0.348494
+
+resultant parameter values
+
+a               = 2.07958
+b               = 0.75403
+c               = 1.26015
+d               = 1.32343
+e               = 3.652
+i_s0_0          = 43.3002
+i_s0_1          = 50.3848
+i_s0_2          = 74.1269
+i_s0_3          = 89.8877
+i_s0_4          = 95.0667
+i_s0_5          = 116.919
+i_max_0         = 46.7491
+i_max_1         = 33.4683
+i_max_2         = 25.2661
+i_max_3         = 18.6759
+i_max_4         = 6.69145
+i_max_5         = 0.966722
+/
+
+ Iteration 15
+ WSSR        : 170.003           delta(WSSR)/WSSR   : -0.000291682
+ delta(WSSR) : -0.0495868        limit for stopping : 1e-09
+ lambda	  : 0.0348494
+
+resultant parameter values
+
+a               = 2.07873
+b               = 0.752692
+c               = 1.26834
+d               = 1.32569
+e               = 3.6352
+i_s0_0          = 43.3002
+i_s0_1          = 50.3848
+i_s0_2          = 74.1269
+i_s0_3          = 89.8877
+i_s0_4          = 95.0666
+i_s0_5          = 116.919
+i_max_0         = 46.7652
+i_max_1         = 33.4732
+i_max_2         = 25.2666
+i_max_3         = 18.6761
+i_max_4         = 6.68991
+i_max_5         = 0.966896
+****/
+
+ Iteration 16
+ WSSR        : 169.993           delta(WSSR)/WSSR   : -6.15579e-05
+ delta(WSSR) : -0.0104644        limit for stopping : 1e-09
+ lambda	  : 34.8494
+
+resultant parameter values
+
+a               = 2.07873
+b               = 0.752628
+c               = 1.26831
+d               = 1.32571
+e               = 3.6352
+i_s0_0          = 43.3002
+i_s0_1          = 50.3848
+i_s0_2          = 74.1269
+i_s0_3          = 89.8877
+i_s0_4          = 95.0666
+i_s0_5          = 116.919
+i_max_0         = 46.7652
+i_max_1         = 33.4732
+i_max_2         = 25.2666
+i_max_3         = 18.6761
+i_max_4         = 6.68991
+i_max_5         = 0.966896
+******/
+
+ Iteration 17
+ WSSR        : 169.993           delta(WSSR)/WSSR   : -2.84229e-15
+ delta(WSSR) : -4.83169e-13      limit for stopping : 1e-09
+ lambda	  : 3.48494e+06
+
+resultant parameter values
+
+a               = 2.07873
+b               = 0.752628
+c               = 1.26831
+d               = 1.32571
+e               = 3.6352
+i_s0_0          = 43.3002
+i_s0_1          = 50.3848
+i_s0_2          = 74.1269
+i_s0_3          = 89.8877
+i_s0_4          = 95.0666
+i_s0_5          = 116.919
+i_max_0         = 46.7652
+i_max_1         = 33.4732
+i_max_2         = 25.2666
+i_max_3         = 18.6761
+i_max_4         = 6.68991
+i_max_5         = 0.966896
+
+After 17 iterations the fit converged.
+final sum of squares of residuals : 169.993
+rel. change during last iteration : -2.84229e-15
+
+degrees of freedom    (FIT_NDF)                        : 17078
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0997693
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00995391
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 2.07873          +/- 0.005029     (0.2419%)
+b               = 0.752628         +/- 0.00144      (0.1914%)
+c               = 1.26831          +/- 0.007724     (0.609%)
+d               = 1.32571          +/- 0.006904     (0.5208%)
+e               = 3.6352           +/- 0.05018      (1.38%)
+i_s0_0          = 43.3002          +/- 4.974e-05    (0.0001149%)
+i_s0_1          = 50.3848          +/- 8.416e-05    (0.000167%)
+i_s0_2          = 74.1269          +/- 0.0001203    (0.0001622%)
+i_s0_3          = 89.8877          +/- 0.0001983    (0.0002206%)
+i_s0_4          = 95.0666          +/- 0.0004862    (0.0005114%)
+i_s0_5          = 116.919          +/- 0.00544      (0.004653%)
+i_max_0         = 46.7652          +/- 0.0378       (0.08083%)
+i_max_1         = 33.4732          +/- 0.02401      (0.07174%)
+i_max_2         = 25.2666          +/- 0.02091      (0.08275%)
+i_max_3         = 18.6761          +/- 0.01532      (0.08202%)
+i_max_4         = 6.68991          +/- 0.017        (0.2541%)
+i_max_5         = 0.966896         +/- 0.008354     (0.864%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      d      e      i_s0_0 i_s0_1 i_s0_2 i_s0_3 i_s0_4 i_s0_5 i_max_ i_max_ i_max_ i_max_ i_max_ i_max_ 
+a               1.000 
+b              -0.258  1.000 
+c               0.037 -0.944  1.000 
+d              -0.062 -0.295  0.372  1.000 
+e               0.055  0.261 -0.369 -0.984  1.000 
+i_s0_0          0.016  0.010  0.077 -0.000 -0.038  1.000 
+i_s0_1         -0.191  0.041 -0.009 -0.037  0.062  0.008  1.000 
+i_s0_2          0.194 -0.058  0.007 -0.058  0.079  0.017 -0.001  1.000 
+i_s0_3          0.059 -0.036  0.001  0.033 -0.003 -0.019  0.017  0.039  1.000 
+i_s0_4          0.189 -0.052  0.009 -0.022  0.028  0.009 -0.025  0.047  0.019  1.000 
+i_s0_5         -0.003 -0.003  0.003  0.012 -0.010 -0.002  0.001  0.000  0.002 -0.000  1.000 
+i_max_0         0.042 -0.345  0.505  0.109 -0.169  0.403  0.012  0.033 -0.030  0.018 -0.002  1.000 
+i_max_1        -0.474  0.013  0.066 -0.158  0.219  0.028  0.294  0.006  0.041 -0.060  0.003  0.080  1.000 
+i_max_2         0.426 -0.214  0.102 -0.191  0.237  0.046  0.005  0.320  0.083  0.106 -0.000  0.123  0.049  1.000 
+i_max_3         0.176 -0.101 -0.014 -0.055  0.144 -0.056  0.060  0.125  0.230  0.060  0.004 -0.091  0.160  0.284  1.000 
+i_max_4         0.436 -0.147  0.046 -0.086  0.099  0.022 -0.055  0.113  0.044  0.285 -0.001  0.058 -0.123  0.260  0.143  1.000 
+i_max_5        -0.017 -0.014  0.011  0.041 -0.031 -0.010  0.010  0.003  0.010 -0.001  0.089 -0.013  0.022  0.004  0.025 -0.004  1.000 
+
+
+Number of steps: 40.
+Total elapsed time of the fitting: 47.318 sec.
+Average time of a step: 1.183 sec.
+Elapsed time of function evaluations: 30.343 sec (64.126 %).
+data read begin.
+data read end.
+data read begin.
+data read end.
+The output has been saved in file 2.1.out.
+data read begin.
+data read end.
+data read begin.
+data read end.
+The output has been saved in file 2.1.out.
+CMWP_ALL_OK

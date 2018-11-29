@@ -1,0 +1,41 @@
+[Raw data]
+Format = "Fuji BAS"
+lDate = 1164978692
+date = "Fri Dec 01 14:11:32 2006"
+comment = ""
+Unit = "PSL"
+width = 4945
+height = 297
+xResolution = 0.05
+yResolution = 0.05
+GradLevels = 65536
+Rotation = 270
+flipped = 0
+ShowOverexposed = 1
+CRC = 7949823F
+
+[Colors]
+minColor = 0
+maxColor = 36408
+colType = 0
+
+[Format Specific]
+Sensitivity = 4000
+Latitude = 5
+IPType = "23*25"
+OrgFile = "Cu_3ECAP_1_2"
+Scanner = "Fuji BAS 1800 II"
+
+[Variables]
+IPNumber = ""
+Project = ""
+Sample = ""
+Exposition = "24h"
+ShieldingBox = "0"
+Comment = "492 mm"
+
+[Software]
+Progname = "Aida"
+Version = "Version 4.06"
+Date of version = "February 10, 2005"
+Operator name = ""

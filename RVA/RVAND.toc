@@ -1,0 +1,5 @@
+\select@language {magyar} \contentsline {section}{\numberline {I}Bevezet\IeC {\'e}s}{3}{section.1}
+\select@language {magyar} \contentsline {subsection}{\numberline {I.1}M\IeC {\'e}r\IeC {\'e}sle\IeC {\'\i }r\IeC {\'a}s}{3}{subsection.1.1}
+\select@language {magyar} \contentsline {section}{\numberline {II}Williamson-Hall m\IeC {\'o}dszer}{3}{section.2}
+\select@language {magyar} \contentsline {section}{\numberline {III}CMWP m\IeC {\'o}dszer}{6}{section.3}
+\select@language {magyar} \contentsline {section}{\numberline {IV}Konkl\IeC {\'u}zi\IeC {\'o}}{8}{section.4}
