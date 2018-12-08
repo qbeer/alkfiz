@@ -1,0 +1,7 @@
+\select@language {magyar} \contentsline {section}{\numberline {1}A m\IeC {\'e}r\IeC {\'e}s c\IeC {\'e}lja}{3}{section.1}
+\select@language {magyar} \contentsline {section}{\numberline {2}M\IeC {\'e}r\IeC {\H o}eszk\IeC {\"o}z\IeC {\"o}k}{3}{section.2}
+\select@language {magyar} \contentsline {section}{\numberline {3}Elm\IeC {\'e}leti h\IeC {\'a}tt\IeC {\'e}r, k\IeC {\'\i }s\IeC {\'e}rleti fel\IeC {\'a}ll\IeC {\'a}s}{3}{section.3}
+\select@language {magyar} \contentsline {section}{\numberline {4}Az egyes\IeC {\'\i }tett $\tau $ id\IeC {\H o}\IeC {\'a}lland\IeC {\'o} meghat\IeC {\'a}roz\IeC {\'a}sa}{4}{section.4}
+\select@language {magyar} \contentsline {section}{\numberline {5}A $T_2$ relax\IeC {\'a}ci\IeC {\'o}s id\IeC {\H o}\IeC {\'a}lland\IeC {\'o} meghat\IeC {\'a}roz\IeC {\'a}sa}{5}{section.5}
+\select@language {magyar} \contentsline {section}{\numberline {6}Rezonancia-\IeC {\'a}tmenet vizsg\IeC {\'a}lata \IeC {\'e}s girom\IeC {\'a}gneses faktor meghat\IeC {\'a}roz\IeC {\'a}sa}{6}{section.6}
+\select@language {magyar} \contentsline {section}{\numberline {7}Diszkusszi\IeC {\'o}}{9}{section.7}
