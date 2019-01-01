@@ -1,0 +1,10 @@
+set xlabel "m_I"
+set xtics -2.5 1 2.5
+set xrange [-3:3]
+set ylabel "B_0 (Gauss)"
+plot "Mn.dat" using 1:2:3 with yerrorbar title "mert pontok (Mn mintara)", f(x) title "illesztett egyenes"
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -68.2427         +/- 0.552        (0.8089%)
+b               = 3392.66          +/- 0.8317       (0.02451%)

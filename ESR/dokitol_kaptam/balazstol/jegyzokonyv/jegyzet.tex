@@ -1,0 +1,344 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[pdftex]{graphicx}
+\usepackage[magyar]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[latin2]{inputenc}
+\usepackage{multirow}
+\usepackage{dcolumn}
+\newcolumntype{d}[1]{D{.}{\cdot}{#1} }
+\usepackage{indentfirst}
+\usepackage{amsmath}
+\usepackage{t1enc}
+%\usepackage{epsfig}
+%\usepackage{epstopdf}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{enumerate}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{color}
+\usepackage{array}
+\usepackage{bbold}
+\usepackage{chngpage}
+\bibliographystyle{unsrt}
+\usepackage[top=4cm ,bottom=4cm ,left=3cm ,right=3cm]{geometry}
+%\usepackage{a4wide}
+\linespread{1.3}
+\usepackage{xcolor}
+%\usepackage{hyperref}
+%\hypersetup{hidelinks}
+
+
+\DeclareGraphicsExtensions{.pdf,.eps,.png,.jpg,.mps,.gif}
+\addtolength{\hoffset}{-1cm}
+\addtolength{\textwidth}{2cm}
+\addtolength{\voffset}{-1cm}
+
+\pdfminorversion=5
+\pdfobjcompresslevel=2
+\newcommand{\celsius}{ ^\circ C } % �C
+\newcommand{\megj}[1]{\textit{\small{Megjegyz�s: #1}}}
+\newenvironment{bfigure}[1]{    \begin{figure}[#1]
+                        \begin{bf}}
+                        {\end{bf}
+                                \end{figure}}
+\newcommand{\icaption}[1]{\caption{\textit{\textmd{#1}}}}
+\newcommand{\brref}[1]{(\ref{#1}. �bra)}
+\newcommand{\sz}[1]{\emph{#1. szakasz}}
+\newcommand{\cg}[1]{   {\color{green}  #1 }   }
+\newcommand{\vect}[1]{\boldsymbol{#1}}
+\newcommand{\dd}{\mathrm{d}}
+
+\begin{document}
+        \begin{titlepage}
+\author{\\ Katona D�vid  \\
+Nagy D�niel \\
+Szigeti Bal�zs \\\\\\
+Fizika BSc 4. f�l�v\\
+Szerda d�lel�tti csoport\\\\
+}
+
+\title{\textsc{9. m�r�s} \\
+\huge{\textbf{Elektronspin-rezonancia}\\
+\vspace{10pt}\textsc{JEGYZ�K�NYV}}}
+\date{M�r�s ideje:\\2017. m�rcius 23. \\
+}
+
+\centering
+\maketitle
+        \thispagestyle{empty}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.05]{eltelogo}
+\end{figure}
+
+\small{MODERN FIZIKA LABORAT�RIUM}
+%\vspace{\stretch{1}}
+        \end{titlepage}
+
+\newpage
+%\tableofcontents   %tartalomjegyz�k
+%\newpage
+%%\pagestyle{myheadings}
+%\newpage
+
+\section{A m�r�s c�lja}
+
+A m�r�s�nk a c�lja, hogy Cr$^{3+}$, valamint Mn$^{2+}$ ionokat tartalmaz� minta elektronspin-rezonancia (ESR) spektrum�nak m�r�s�vel meghat�rozzuk a Mn$^{2+}$ ion girom�gneses-faktor�t, illetve a mint�ban l�v� atomok sz�m�t, valamint Mn$^{2+}$ �s Cr$^{3+}$ hiperfinom-k�lcs�nhat�si egy�tthat�j�t.
+
+\section{M�r�sle�r�s}
+
+\subsection{Elm�leti h�tt�r}
+
+Az ESR m�r�s alapja, hogy Zeeman-felhad�st hozunk l�tre sztatikus m�gneses t�r seg�ts�g�vel. Ekkor a l�trej�tt Zeeman-aln�v�k k�z�tt elektrom�gneses gerjeszt�s seg�ts�g�vel  �tmeneteket hozunk l�tre. 
+Az rezonancia felt�tele:
+\begin{equation}
+h \nu = g \mu_{B}B_0 + A m_I
+\label{eq:1}
+\end{equation}
+Ahol $h$ a Planck-�lland�, g az �n. g-faktor, $\mu_B$ a Bohr-magneton, $\nu$ a gerjeszt�si
+elektrom�gneses hull�m frekvenci�ja, A az �n. finomszerkezeti �lland�, �s $m_I$ a magspin $B_0$ ir�ny� vet�lete.
+Ez ut�bbi $\pm I$ k�zt v�ltozhat, teh�t $2I+1$ �rt�ket vehet fel. A hiperfinom k�lcs�nhat�s eredm�nyek�pp az elektronok 
+energiaszintje is ennyi n�v�ra hasad. Mivel a kiv�laszt�si szab�ly szerint csak a $\Delta m_S= \pm 1$ �tmenetek enged�lyezettek, ez�rt az ESR spektrumban is ennyi cs�csot m�r�nk adott mag eset�n. A k�pet �rnyalja, hogy az adott mint�ban egy elem t�bbf�le izot�pja is szerepelhet, �gy ezek �sszeg�t m�rj�k, ahol a g�rbe alatti ter�let az adott $I$-j� atomok sz�m�val ar�nyos.
+A m�r�s sor�n $B_0$ �rt�k�t v�ltoztattuk �s annak a f�ggv�ny�ben m�rt�k az abszorpci�t. 
+
+A m�r�s sor�n a $B_0$ sztatikus m�gneses t�r mellett alkalmazunk egy �lland� frekvenci�j�  gerjeszt�st, amellyel az �tmeneteket hozunk l�tre. 
+A m�r�sn�l a jobb jel/zaj ar�ny �rdek�ben,  lock in technik�t alkalmaztunk, amelynek a l�nyege, hogy a m�r�si alatti m�gneses t�ret modul�ljuk 100kHz-ces  peri�dkus jellel �s ennek seg�ts�g�vel kisz�rj�k a pontosan ugyan�gy v�ltoz� komponenst. A lock in technika k�vetkezt�ben az ESR-jel deriv�ltj�t kapjuk, azaz ide�lis esetben Lorentz-g�rb�k deriv�ljait regisztr�ljuk.
+
+\subsection{M�r�si eszk�z�k}
+
+\begin{itemize}
+\item Elektronspinrezonancia-spektroszk�p
+\item Sz�m�t�g�p
+\item Mn$^{2+}$ �s Cr$^{3+}$ mint�k
+\end{itemize}
+
+\section{Adatok �s ki�rt�kel�s}
+
+\subsection{Kr�m(III) ESR-spektruma}
+
+A term�szetben kr�mnak h�rom stabil $I=0$ magspin� izot�pja fordul el� ($^{50}$Cr, $^{52}$Cr, illetve $^{54}$Cr), amelyek az atomok $90.50\%$-t adj�k. Ezen fel�l az $I=3/2$ magspin� $^{53}$Cr adja az atomok $9.50\%$-�t.
+A mint�r�l kis l�ptet�ssel felvett�k az ESR-spektrumot. Az elm�letnek megfelel�en egy f� cs�cs jelent meg, mellette 4 gyeng�n l�that� kisebb cs�csal (\ref{fig:1}. �bra). A f�cs�csra Lorentz-g�rbe deriv�ltj�t illesztett�k. A Lorentz-g�rbe a k�vetkez� alak�:
+\begin{equation}
+f(x) = \frac{a}{(1+s(x-x_0)^2)}
+\label{eq:2}
+\end{equation}
+teh�t a deriv�ltja:
+\begin{equation}
+\frac{df}{dx} = \frac{-2as(x-x_0)}{(1+s(x-x_0)^2)^2}
+\label{eq:3}
+\end{equation}
+Az illesztett g�rbe adatait \aref{tab:1}. t�bl�zat tartalmazza (egy c offsetet is beledefini�lva a fenti k�pletbe).
+
+\begin{figure}[H]
+\includegraphics[width=15cm]{Cr.png}
+\centering
+\caption{A m�r�si adatok, �s az illesztett deriv�lt Lorentz-g�rbe Cr$^{3+}$ minta eset�n}
+\label{fig:1}
+\end{figure}
+
+\begin{table}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
+ \hline
+$a$ ($0.5$mV) & $s$ (Gauss$^{-2}$) & $x_0$ (Gauss) & $c$ (0.5mV)\\ \hline
+$17524 \pm 455.7$ & $0.610 \pm 0.024$ & $3438.50 \pm 0.0497$ & $100 \pm 22.55$  \\ \hline
+\end{tabular}
+\caption{A Cr$^{3+}$-minta eset�ben m�rt ESR jelre illesztett g�rbe param�terei}
+\label{tab:1}
+\end{center}
+\end{table}
+
+A Cr$^{3+}$ g-faktor�nak ismeret�ben (\ref{eq:4}) kisz�molhat� a gerjeszt�si frekvencia (\ref{eq:5}. egyenlet).
+
+\begin{equation}
+g_{Cr}=1.98 \pm 0.0001
+\label{eq:4}
+\end{equation} 
+
+\begin{equation}
+\nu = \dfrac{g_{Cr}\mu_{B}B_0}{h} = 9.529 \text{ } GHz\text{,         } \delta\nu = 6\times 10^{-4}
+\label{eq:5}
+\end{equation}
+
+A Cr-mint�ban l�v� atomok sz�m�t ismerj�k: $N_{Cr} = 8,3 \times 10^{13}$. Ezt, valamint a Cr$^{3+}$-minta cs�csok alatti ter�let�t felhaszn�ljuk a Mn$^{2+}$ mennyis�g�nek meghat�roz�s�hoz. A Lorentz-g�rbe alatti ter�letet \aref{eq:6}. egyenlet adja meg.
+
+\begin{equation}
+T=\int_{-\infty}^{\infty}dx \frac{a}{(1+s(x-x_0)^2)}= \frac{\pi a}{\sqrt{s}}
+\label{eq:6}
+\end{equation}
+
+Ezek alapj�n a f�cs�cs alatti ter�let (\ref{eq:7}):
+\begin{equation}
+T_{Cr, I=0}=(35244\pm 1610)  mV\times Gauss
+\label{eq:7}
+\end{equation}
+Ez alapj�n a teljes mint�ra (\ref{eq:8}):
+\begin{equation}
+T_{Cr}=T_{Cr, I=0}/0.9050 = (38943 \pm 1780) mV\times Gauss
+\label{eq:8}
+\end{equation}
+�gy az iononk�nti ter�let (\ref{eq:9}):
+\begin{equation}
+Z:=T_{Cr}/N_{Cr}=(4.692 \pm 0.215)\times 10^{-10} mV\times Gauss
+\label{eq:9}
+\end{equation}
+
+A kis jel/zaj ar�ny miatt a 4 kisebb cs�cs helye csak hozz�vet�legesen hat�rozhat�k meg, g�rbe nem illeszthet� r�juk. A n�gy cs�cs helye: $B_1 = 3411$ Gauss, $B_2 = 3428$ Gauss, $B_3 = 3446$ Gauss, $B_4 = 3464$ Gauss, a hib�jukat $2$ Gaussnak becs�ltem (\ref{fig:crhf}. �bra) . A pontokra egyenest illesztve $\Delta B = 17.7 \pm 0.17$ Gauss. Ezek alapj�n a hiperfinom felhasad�si �lland�:
+
+\begin{equation}
+A_{Cr}=g_{Cr}\mu_B\Delta B=(3.25\pm 0.03)\times10^{-26}J
+\label{eq:10}
+\end{equation}
+
+\begin{figure}[H]
+\includegraphics[width=15cm]{crhf.eps}
+\centering
+\caption{Cr minta $I=3/2$ magspin� cs�csai �s az illesztett egyenes}
+\label{fig:crhf}
+\end{figure}
+
+\subsection{Mang�n(II) ESR-spektruma}
+
+A mint�ban egyf�le ion, a  $^{55}Mn^{+2}$ spektrum�t regisztr�ltuk (\ref{fig:2}. �bra). A spektrum az $I=5/2$ magspinnek megfelel�en 6 cs�csot mutat. Az egye cs�csokr�l nagyobb felbont�ssal k�sz�tett�nk regisztr�tumokat, melyekre Lorentz-g�rb�ket illesztett�nk (l. f�ggel�k \ref{fig:4}-\ref{fig:9}. �bra). Ezek adatait \aref{tab:2}. t�bl�zat tartalmazza.
+
+\begin{figure}[H]
+\includegraphics[width=15cm]{Mn_teljes.eps}
+\centering
+\caption{Mn$^{2+}$ minta teljes spektruma nagy l�pt�kkel}
+\label{fig:2}
+\end{figure}
+
+\begin{table}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+ \hline
+$m_I$ & $a$ (2mV) & $s$ (Gauss)$^{-2}$ & $x_0$ (Gauss) & $c$ (2mV) \\ \hline
+$-2.5$ & $12930 \pm 432.3$ & $0.812 \pm 0.023$ & $3225.00 \pm 0.0634$ & $-50 \pm 16.25$ \\ \hline
+$-1.5$ & $12930 \pm 443.4$ & $0.889 \pm 0.025$ & $3290.40 \pm 0.0578$ & $-154\pm 31.28$ \\ \hline
+$-0.5$ & $11930 \pm 426.2$ & $0.989 \pm 0.027$ & $3357.20 \pm 0.0582$ & $-284\pm 45.12$ \\ \hline
+$0.5$  & $13050 \pm 456.1$ & $0.783 \pm 0.024$ & $3425.36 \pm 0.0332$ & $-284\pm 45.7$ \\ \hline
+$1.5$  & $11924 \pm 439.1$ & $1.005 \pm 0.022$ & $3495.02 \pm 0.0435$ & $-104\pm 25.67$ \\ \hline
+$2.5$  & $11524 \pm 447.2$ & $0.910 \pm 0.027$ & $3565.82 \pm 0.0523$ & $-554\pm 132.85$ \\ \hline
+\end{tabular}
+\caption{A Mn${2+}$-minta eset�ben m�rt ESR jelre illesztett g�rbe param�terei}
+\label{tab:2}
+\end{center}
+\end{table}
+
+A $m_I$ f�ggv�ny�ben �br�zolva a Mn$^{2+}$ spektrum�ban megjelen� cs�csok helyeit, akkor egy egyenest kapunk (\ref{eq:11}. egyenlet).
+
+\begin{equation}
+B_0 = - \frac{A}{g_{Mn} \mu_B}  m_I + \dfrac{h \nu}{g_{Mn} \mu_B}
+\label{eq:11}
+\end{equation}
+
+\begin{figure}[H]
+\includegraphics[width=15cm]{Mn.eps}
+\centering
+\caption{$B(m_I)$ pontokra illesztett egyenes $(y=mx+b)$. Param�terei: $m_{egyenes}=-68.24\pm0.55$, $b=3392.7\pm0.8$ }
+\label{fig:3}
+\end{figure}
+
+Az illesztett egyenes param�tereib�l meghat�rozhat� a $g_{Mn}$ �s az $A$ hiperfinom k�lcs�nhat�si t�nyez� (\ref{eq:12}, \ref{eq:13}).
+
+\begin{equation}
+g_{M_n}= \dfrac{h \nu}{\mu_{B} b}= 2.007 \pm 0.002
+\label{eq:12}
+\end{equation}
+
+\begin{equation}
+A_{Mn}=-m_{egyenes}g_{M_n} \mu_{B} = (1.27 \pm 0.01) \times10^{-25} J
+\label{eq:13}
+\end{equation}
+
+
+
+
+\subsubsection{Mn(II)-ionok sz�m�nak meghat�roz�sa}
+
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|c|c|}
+ \hline
+$\textrm{m�r�s}$ & $T$ (2mV $\times$ Gauss) \\ \hline
+$1$ & $(4.5079 \pm 0.02) \cdot 10^4$ \\ \hline
+$2$ & $(4.3082 \pm 0.02) \cdot 10^4$ \\ \hline
+$3$ & $(3.7687 \pm 0.02) \cdot 10^4$ \\ \hline
+$4$ & $(4.6332 \pm 0.02) \cdot 10^4$ \\ \hline
+$5$ & $(3.7367 \pm 0.02) \cdot 10^4$ \\ \hline
+$6$ & $(3.7941 \pm 0.02) \cdot 10^4$ \\ \hline
+\end{tabular}
+\caption{A Mn$^{2+}$-minta eset�ben a Lorentz-g�rbe alatti ter�letek}
+\label{tab:3}
+\end{center}
+\end{table}
+A cs�csok alatti ter�leteket mutatja \aref{tab:3}. t�bl�zat. Ezek �sszege (\ref{eq:14}):
+
+\begin{equation}
+T_{Mn}=(4.950\pm0.24)\times10^{5} mV \times Gauss
+\label{eq:14}
+\end{equation}
+
+Ebb�l becs�lhet� a Mn$^{2+}$ ionok sz�ma, felhaszn�lva a Cr$^{3+}$n�l m�rteket (\ref{eq:15}):
+
+\begin{equation}
+N_{Mn}=T_{Mn}/Z=(1.05\pm 0.10)\times 10^{15}
+\label{eq:15}
+\end{equation}
+
+\section{Diszkusszi�}
+
+A gyakorlat sor�n megm�rt�k Cr$^{3+}$ illetve Mn$^{2+}$ ionok ESR-spektrum�t. A Cr$^{3+}$-minta $90.50\%$ $I=0$ spin� magot ($^{50}$Cr, $^{52}$Cr, $^{54}$Cr), m�g $9.50\%$-ban $I=3/2$ spin� magot ($^{53}$Cr) tartalmaz. Ennek megfelel�en a spektrumban egy j�l l�that� cs�cs jelent meg. Az $I=3/2$ magspin hat�s�ra a hiperfinom-felhasad�s k�vetkezt�ben megjelen� 4 kisebb cs�cs �pphogy l�that�an jelenik csak meg (a magok j�val kisebb sz�ma �s a n�gyfel� hasad�s k�vetkezt�ben), amely alapj�n becs�lhet� volt a Cr$^{3+}$-ra jellemz� hiperfinom k�lcs�nhat�si �lland� $A_{Cr}=(3.3\pm 0.2)\times10^{-26}J$. 
+A Mn$^{2+}$-minta ESR spektrum�m 6, egym�st�l azonos t�vols�g� cs�csot figyelt�nk meg, amely megfelel annak, hogy a minta csup�n $^{55}$Mn magot tartalmaz, amelyre $I= 5/2$. A Cr$^{3+}$-minta m�r�s�b�l meghat�rozott frekvencia birtok�ban a Mn$^{2+}$-ra a girom�gneses faktor $g=2.007\pm0.002$-nak ad�dott. A hat cs�cs hely�re egyenest illsztve pedig a finom k�lcs�nhat�si �lland�t kaptuk meg, melyre $A_{Mn}= (1.27 \pm 0.01) \times10^{-25} J$ ad�dott.
+
+\section{F�ggel�k}
+
+\begin{figure}[H]
+\includegraphics[width=15cm]{Mn1.png}
+\centering
+\caption{A m�r�si adatok, �s az illesztett deriv�lt Lorentz-g�rbe Mn minta eset�n, $m_I = 5/2$}
+\label{fig:4}
+\end{figure}
+
+
+\begin{figure}[H]
+\includegraphics[width=15cm]{Mn2.png}
+\centering
+\caption{A m�r�si adatok, �s az illesztett deriv�lt Lorentz-g�rbe Mn minta eset�n, $m_I = 3/2$}
+\label{fig:5}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=15cm]{Mn3.png}
+\centering
+\caption{A m�r�si adatok, �s az illesztett deriv�lt Lorentz-g�rbe Mn minta eset�n, $m_I = 1/2$}
+\label{fig:6}
+\end{figure}
+
+\begin{figure}[H]
+\includegraphics[width=15cm]{Mn4.png}
+\centering
+\caption{A m�r�si adatok, �s az illesztett deriv�lt Lorentz-g�rbe Mn minta eset�n $m_I = -1/2$}
+\label{fig:7}
+\end{figure}
+
+
+\begin{figure}[H]
+\includegraphics[width=15cm]{Mn5.png}
+\centering
+\caption{A m�r�si adatok, �s az illesztett deriv�lt Lorentz-g�rbe Mn minta eset�n, $m_I = -3/2$}
+\label{fig:8}
+\end{figure}
+
+
+\begin{figure}[H]
+\includegraphics[width=15cm]{Mn6.png}
+\centering
+\caption{A m�r�si adatok, �s az illesztett deriv�lt Lorentz-g�rbe Mn minta eset�n, $m_I = -5/2$}
+\label{fig:9}
+\end{figure}
+\end{document}
